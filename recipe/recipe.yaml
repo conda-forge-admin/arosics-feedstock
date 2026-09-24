@@ -14,7 +14,7 @@ source:
 
 build:
   number: 1
-  skip: match(python, "<3.9")
+  skip: match(python, "<3.11")
   script: ${{ PYTHON }} -m pip install . -vv
   python:
     entry_points:
